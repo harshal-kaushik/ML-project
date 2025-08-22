@@ -20,6 +20,4 @@ author = 'Harshal',
 author_email = 'kaushikharshal02@gmail.com',
 install_requires = get_requirements('requirement.txt')
 
-
-
 )
