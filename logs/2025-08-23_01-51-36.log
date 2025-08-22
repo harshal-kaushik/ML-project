@@ -1,0 +1,6 @@
+2025-08-23 01:51:36,502 - INFO - root - logging is working properly
+2025-08-23 01:51:38,700 - INFO - root - Initiating data ingestion
+2025-08-23 01:51:38,747 - INFO - root - Read the dataset as dataframe
+2025-08-23 01:51:38,776 - INFO - root - Saved raw dataset
+2025-08-23 01:51:38,777 - INFO - root - Train-test split started
+2025-08-23 01:51:38,810 - INFO - root - Train and test split completed successfully
