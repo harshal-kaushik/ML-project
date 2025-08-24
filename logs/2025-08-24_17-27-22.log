@@ -1,0 +1,12 @@
+2025-08-24 17:27:22,940 - INFO - root - logging is working properly
+2025-08-24 17:27:25,100 - INFO - root - Initiating data ingestion
+2025-08-24 17:27:25,106 - INFO - root - Read the dataset as dataframe
+2025-08-24 17:27:25,112 - INFO - root - Saved raw dataset
+2025-08-24 17:27:25,112 - INFO - root - Train-test split started
+2025-08-24 17:27:25,121 - INFO - root - Train and test split completed successfully
+2025-08-24 17:27:25,162 - INFO - root - Training,Test data loaded
+2025-08-24 17:27:25,163 - INFO - root - obtaining preprocessor obj
+2025-08-24 17:27:25,163 - INFO - root - Numerical columns standardized
+2025-08-24 17:27:25,167 - INFO - root - categorical columns encoded
+2025-08-24 17:27:25,169 - INFO - root - preprocessor obj created
+2025-08-24 17:27:25,198 - INFO - root - saved processed data
