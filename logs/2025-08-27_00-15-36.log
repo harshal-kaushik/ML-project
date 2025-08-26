@@ -1,0 +1,9 @@
+2025-08-27 00:15:36,443 - INFO - root - logging is working properly
+2025-08-27 00:15:36,601 - WARNING - werkzeug -  * Debugger is active!
+2025-08-27 00:15:36,617 - INFO - werkzeug -  * Debugger PIN: 334-658-675
+2025-08-27 00:15:36,798 - INFO - werkzeug - 127.0.0.1 - - [27/Aug/2025 00:15:36] "GET /predict?gender=male&race_ethnicity=group+C&parental_education=some+college&lunch=standard&test_prep=none&reading_score=55&writing_score=78 HTTP/1.1" 200 -
+2025-08-27 00:17:47,729 - INFO - werkzeug - 127.0.0.1 - - [27/Aug/2025 00:17:47] "GET /predict HTTP/1.1" 200 -
+2025-08-27 00:18:09,797 - INFO - werkzeug - 127.0.0.1 - - [27/Aug/2025 00:18:09] "GET /predict?gender=male&race_ethnicity=group+A&parental_education=high+school&lunch=standard&test_prep=none&reading_score=78&writing_score=77 HTTP/1.1" 200 -
+2025-08-27 00:24:21,675 - INFO - werkzeug - 127.0.0.1 - - [27/Aug/2025 00:24:21] "GET /predict?gender=male&race_ethnicity=group+A&parental_education=high+school&lunch=standard&test_prep=none&reading_score=78&writing_score=77 HTTP/1.1" 200 -
+2025-08-27 00:24:34,754 - INFO - werkzeug - 127.0.0.1 - - [27/Aug/2025 00:24:34] "GET /predict?gender=female&race_ethnicity=group+A&parental_level_of_education=some+high+school&lunch=standard&test_preparation_course=none&reading_score=78&writing_score=67 HTTP/1.1" 200 -
+2025-08-27 00:32:16,483 - INFO - werkzeug -  * Detected change in 'C:\\Users\\harshal kaushik\\Desktop\\ml project\\app.py', reloading

@@ -1,0 +1,5 @@
+2025-08-27 00:32:29,767 - INFO - root - logging is working properly
+2025-08-27 00:32:29,825 - WARNING - werkzeug -  * Debugger is active!
+2025-08-27 00:32:29,830 - INFO - werkzeug -  * Debugger PIN: 334-658-675
+2025-08-27 00:32:37,673 - INFO - werkzeug - 127.0.0.1 - - [27/Aug/2025 00:32:37] "GET / HTTP/1.1" 200 -
+2025-08-27 00:32:53,210 - INFO - werkzeug - 127.0.0.1 - - [27/Aug/2025 00:32:53] "GET /predict?gender=male&race_ethnicity=group+D&parental_level_of_education=high+school&lunch=free/reduced&test_preparation_course=completed&reading_score=67&writing_score=89 HTTP/1.1" 200 -
