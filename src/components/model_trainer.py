@@ -47,7 +47,43 @@ class ModelTrainer:
 
 
             }
-            model_report : dict = evaluate_model(X_train=X_train,y_train=y_train,X_test=X_test,y_test=y_test,models=models)
+            params = {
+                "Random forest regressor": {
+                    'criterion': ['squared_error', 'friedman_mse', 'absolute_error', 'poisson'],
+                    'max_features': ['sqrt', 'log2', None],
+                    'n_estimators': [8, 16, 32, 64, 128, 256]},
+                "Gradient boosting regressor": {
+                    'learning_rate': [.1, .01, .05, .001],
+                    'subsample': [.6, .7, .75, .8, .85, .9],
+                    'n_estimators': [8, 16, 32, 64, 128, 256]
+                },
+                'Linear regression': {},
+
+                'KNN regressor': {
+                    'n_neighbors': [5, 7, 9, 11]
+                },
+                "Decision tree regressor": {
+                    'criterion': ['squared_error', 'friedman_mse', 'absolute_error', 'poisson'],
+                    'splitter': ['best', 'random'],
+                    'max_features': ['sqrt', 'log2']
+
+
+                },
+                "Adaboost regressor": {
+                    'learning_rate': [0.01, 0.05, 0.1],
+                    "n_estimators": [8, 16, 32, 64, 128, 256]
+                },
+                "Xgboost regressor": {
+                    'learning_rate':[0.01,0.05,0.1],
+                    "n_estimators":[8,16,32,64,128,256]
+                },
+                "Catboost regressor": {
+                    'depth':[3,6,10],
+                    'learning_rate':[0.01,0.05,0.1],
+                    'iterations':[10,50,100]
+                }
+            }
+            model_report : dict = evaluate_model(X_train=X_train,y_train=y_train,X_test=X_test,y_test=y_test,models=models,param=params)
             # 1. Get the highest score from the report
             best_model_score = max(model_report.values())
 
